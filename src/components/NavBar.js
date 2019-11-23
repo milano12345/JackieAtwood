@@ -1,13 +1,15 @@
 import React from "react";
 
+import { NavBox, Anchors } from "../styling/NavStyle";
+
 export default function NavBar() {
     return (
-        <div>
-            <a href="/">Welcome</a>
-            <a href="/about">About Me</a>
-            <a href="/work">My Work</a>
-            <a href="/hire">Hire Me</a>
-            <a href="/contact">Contact</a>
-        </div>
+        <NavBox>
+            <Anchors href="/">Welcome</Anchors>
+            <Anchors href="/about">About Me</Anchors>
+            <Anchors href="/work">My Work</Anchors>
+            <Anchors href="/hire">Hire Me</Anchors>
+            <Anchors href="/contact">Contact</Anchors>
+        </NavBox>
     )
 }
