@@ -1,5 +1,4 @@
 import React from "react";
-
 import { NavBox, Anchors } from "../styling/NavStyle";
 
 export default function NavBar() {
