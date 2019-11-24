@@ -9,7 +9,7 @@ export default function Footer() {
                 <br />
             Melbourne, Fl
                 <br />
-            devjackie@gmail.com</p>
+            webdevjackie@gmail.com</p>
         </FooterBar>
     )
 }
