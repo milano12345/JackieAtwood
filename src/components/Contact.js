@@ -1,47 +1,40 @@
 import React from "react";
+import styled from 'styled-components'
+
+
+import { ContactForm, Label, FormBottom, LabelBottom, TextArea } from "../styling/ContactStyle";
 
 export default function Contact() {
     return (
-        <div>
+        <ContactForm>
             <p>Contact</p>
             <form>
-                <label>Name: </label>
+                <Label>Name: </Label>
                 <input
                     type="text"
                     placeholder="*Required"
                 />
-                <label>E-mail: </label>
+                <Label>E-mail: </Label>
                  <input
                     type="text"
                     placeholder="*Required"
                 />
-                <label>Phone: </label>
+                <Label>Phone: </Label>
                  <input
                     type="text"
                     placeholder="*Required"
                 />
-                <label>Subject: </label>
+                <Label>Subject: </Label>
                  <input
                     type="text"
                     placeholder="*Required"
                 />
-                <label>Your Message: </label>
+                <Label>Your Message: </Label>
                  <textarea
                     type="text"
                     placeholder="*Required"
                 />
-                <label>Prefered Method of Contact: </label>
-                <label>E-mail</label>
-                <input
-                    required
-                    type="checkbox"
-                />
-                   <label>Phone</label>
-                <input
-                    required
-                    type="checkbox"
-                />
             </form>
-        </div>
+        </ContactForm>
     )
 }

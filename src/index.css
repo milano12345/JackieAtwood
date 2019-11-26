@@ -3,9 +3,26 @@ body {
   font-family: 'Caveat Brush', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #808080 no-repeat center center fixed; 
+  background-size: cover;
+  
+  min-height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* 
+.CoverBG {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 10px teal;
+    background: #808080 no-repeat center center fixed; 
+    background-size: cover;
+} */
