@@ -11,7 +11,6 @@ const NavBox = styled.div `
 `
 
 const Anchors = styled.a `
-    // border: red solid 1px;
     text-decoration: none;
     color: gray;
     font-family: 'Lato', sans-serif;
@@ -20,5 +19,7 @@ const Anchors = styled.a `
     align-items: center;
     justify-content: center;
 `
+
+
 
 export { NavBox, Anchors };

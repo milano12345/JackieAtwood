@@ -17,6 +17,7 @@ const PitchTitle = styled.h1 `
 const Circle = styled.p `
     border: black solid 2px;
     background: #14bdbd;
+    // background: #008080;
     border-radius: 100%;
     width: 100px;
     height: 100px;
