@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components'
 
 
-import { ContactForm, Label, FormBottom, LabelBottom, TextArea } from "../styling/ContactStyle";
+import { ContactForm, Label } from "../styling/ContactStyle";
 
 export default function Contact() {
     return (

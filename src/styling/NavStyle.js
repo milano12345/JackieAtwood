@@ -6,8 +6,9 @@ const NavBox = styled.div `
     height: 80px;
     display: flex;
     justify-content: space-around;
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+    // border: solid red 1px;
 `
 
 const Anchors = styled.a `

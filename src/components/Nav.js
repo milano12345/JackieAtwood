@@ -5,7 +5,6 @@ import { NavBox } from "../styling/NavStyle";
 
 export default function Nav() {
     return (
-        <div>
         <NavBox>
             <NavLink path to="/nav/welcome">Welcome</NavLink>
             <NavLink path to="/nav/about">About Me</NavLink>
@@ -13,6 +12,5 @@ export default function Nav() {
             <NavLink path to="/nav/hire">Hire Me</NavLink>
             <NavLink path to="/nav/contact">Contact</NavLink>
         </NavBox>
-        </div>
     )
 }

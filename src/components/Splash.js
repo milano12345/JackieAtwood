@@ -12,7 +12,7 @@ export default function Splash() {
             <SplashDiv>
                 <Overlap>
                 <Circle>design</Circle>
-                <SplashCard>consult, come together, uniquely yours, custom-built/scratch, no templates</SplashCard>
+                <SplashCard>consult, come together, uniquely yours, custom-built/scratch, no templates-more text</SplashCard>
                 </Overlap>
                 <Overlap>
                 <Circle>develop</Circle>
