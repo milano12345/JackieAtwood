@@ -15,7 +15,7 @@ const HeaderCard = styled.div `
 `
 
 const RoundLogo = styled.img `
-    width: 160px;
+    width: 8em;
     height: 0 auto;
     // background: green;
     border-radius: 100%;
@@ -24,14 +24,16 @@ const RoundLogo = styled.img `
 `
 
 const TextLogo = styled.img `
-    width: 0 auto;
-    height: 100px;
+    width: 25em;
+    height: 0 auto;
+    margin: 0 auto;
     margin-top: -20px;
 `
 
 const Title = styled.img `
-    width: 0 auto;
-    height: 45px;
+    width: 25em;
+    height: 0 auto;
+    margin: 0 auto;
     margin-top: -20px;
 `
 

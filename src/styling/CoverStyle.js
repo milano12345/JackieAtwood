@@ -1,40 +1,36 @@
 import styled from "styled-components";
 
-const Covered = styled.div `
-    background: #808080;
-    width: 100%;
-    height: 120%;
+const CoverCard = styled.div `
     display: flex;
+    // height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    text-shadow: 1px 1px 10px teal;
-    background-size: 100%;
-    margin-top: 50px;
-    background-image: radial-gradient(#14bdbd, black);
-    position: absolute;
-    left: 0px;
-    top: -150px;
-    z-index: -1;
-    line-height: 30px;
+    width: 70%;
+    margin: 15%;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    // margin-top: 20%;
 
     h2 {
-        line-height: 1px;
-        margin-top: 20px;
-    }
-    img {
-        margin-top: -15px;
+        margin-top: 0;
     }
 `
 
-const CoverBG = styled.div `
-    // border: green solid 1px;
-    // background-image: linear-gradient(to right, red , yellow);
-    // position: absolute;
-    // left: 0px;
-    // top: 0px;
-    // z-index: -1;
+const Covered = styled.div `
+    background: #808080;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 10px teal;
+    margin-top: 50px;
+    background-image: radial-gradient(#14bdbd, black);
+    position: absolute;
+    top: -50px;
+    line-height: 30px;
+    }
 `
 
 const Down = styled.img `
@@ -42,12 +38,11 @@ const Down = styled.img `
     height: 0 auto;
     border-radius: 100%;
     margin: 0 auto;
-
+    padding-bottom: 20px;
 
     &:hover {
-        opacity: 0.5;
         transform: scale(1.2);
     }
 `
 
-export { Covered, Down, CoverBG }
+export { Covered, Down, CoverCard }

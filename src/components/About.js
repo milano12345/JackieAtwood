@@ -11,6 +11,11 @@ export default function About() {
                 <p>Geography?</p>
                 <p>Hobbies?</p>
                 <h1>Skills/Knowledge</h1>
+                <p>Languages</p>
+                <p>Libraries</p>
+                <p>Frameworks</p>
+                <p>Tools</p>
+
             </div>
             <IconDiv>
                 <a target="_blank" href="https://github.com/JaxAtwood"><Icons src="/GitHubLogo.png" alt="github icon" title="GitHub"></Icons></a>
