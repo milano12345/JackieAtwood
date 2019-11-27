@@ -1,46 +1,67 @@
 import styled from "styled-components";
 
+const CodeImg = styled.img `
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+`
+
 const CoverCard = styled.div `
     display: flex;
-    height: 100%;
     flex-direction: column;
-    // border: 1px solid red;
-    justify-content: space-around;
-    align-items: space-around;
+    margin: 0 auto;
+    line-height: 1.8em;
+    // height: 3vh;
+    // width: 3vw;
+    // border: solid 1px red;
     width: 100%;
-    line-height: 3.5rem;
-    font-size: 1.6rem;
-
+    margin-top: 4em;
     h2 {
         margin-top: 0;
     }
 `
 
 const Covered = styled.div `
-    width: 100%;
-    height: 100%;
     justify-content: center;
+    box-shadow: inset 0 0 200px black;
+    color: white;
     align-items: center;
-    font-size: 2.5rem;
     text-shadow: 1px 1px 10px teal;
-    margin-top: 50px;
-    background-image: radial-gradient(#14bdbd, black);
-    position: absolute;
-    top: -50px;
     line-height: 30px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 4vh;
     }
 `
 
-const Down = styled.img `
-    width: 100px;
+const Down = styled.div `
+    border: solid black 2px;
+    background: white;
+    color: black;
+    width: 15%;
     height: 0 auto;
-    border-radius: 100%;
     margin: 0 auto;
-    padding-bottom: 20px;
-
     &:hover {
         transform: scale(1.2);
+        background: #14bdbd;
     }
 `
 
-export { Covered, Down, CoverCard }
+const Enter = styled.div `
+    color: black;
+    font-weight: bold;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+`
+
+export { Covered, Down, CoverCard, CodeImg, Enter }
