@@ -1,19 +1,19 @@
 import React from "react";
-import { Covered, Down, CoverCard } from "../styling/CoverStyle";
-{/* <img src="/NameLogo.png" alt="text logo"></img> */}
+import { Covered, Down, CoverCard, CodeImg, Enter, H1 } from "../styling/CoverStyle";
 
 
 export default function Cover() {
     return (
        <Covered>
+           <CodeImg src="/codeimg.png"></CodeImg>
            <CoverCard>
-            <h1>I'm 
+            <H1>I'm 
                 <br />
                 Jackie Atwood. 
                 <br />
-                I'm a budding web developer.</h1>
+                I'm a budding web developer.</H1>
             <h2>Let's Grow Together.</h2>
-            <a href="/nav/welcome"><Down src="/arrowdown2.png"></Down></a>
+            <Down><Enter href="/nav/welcome" alt="Welcome Page">Enter Here</Enter></Down>
 
             </CoverCard>
        </Covered>

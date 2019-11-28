@@ -25,16 +25,14 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-a {
+
+a{
   font-family: 'Lato', sans-serif;
   color: white;
   text-decoration: none;
-  text-decoration: none;
   font-family: 'Lato', sans-serif;
   display: flex;
-  /* width: 200px; */
   height: 30%;
-  /* border: solid pink 1px; */
   align-items: center;
   justify-content: center;
   margin-top: 30px;
@@ -59,7 +57,3 @@ a:visited {
   text-decoration: none;
   opacity: 0.5;
 }
-
-/* @phone: ~"(max-width: 500px)"; */
-
-/* @tablet: ~"(max-width: 900px)"; */
