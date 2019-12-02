@@ -18,3 +18,9 @@
 
 
 //animations?
+
+
+
+//FadeIn with Material-ui
+
+// import { Paper } from '@material-ui/core';

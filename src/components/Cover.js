@@ -1,21 +1,51 @@
 import React from "react";
-import { Covered, Down, CoverCard, CodeImg, Enter, H1 } from "../styling/CoverStyle";
+import "../styling/CoverStyle.js";
+import { Code, Typer, Button } from "../styling/CoverStyle";
+import Typewriter from "./Typewriter";
+// import Typewriter from 'typewriter-effect';
+// import Fade from 'react-reveal/Fade';
+// import Zoom from 'react-reveal/Zoom';
 
+ export default function Cover() {
 
-export default function Cover() {
     return (
-       <Covered>
-           <CodeImg src="/codeimg.png"></CodeImg>
-           <CoverCard>
-            <H1>I'm 
-                <br />
-                Jackie Atwood. 
-                <br />
-                I'm a budding web developer.</H1>
-            <h2>Let's Grow Together.</h2>
-            <Down><Enter href="/nav/welcome" alt="Welcome Page">Enter Here</Enter></Down>
-
-            </CoverCard>
-       </Covered>
+       <div>
+           <Code src="/codeimg.png" alt="blurred code" className="codeimg"></Code>
+           <Typer>
+            <Typewriter />
+           </Typer>
+           <Button href="/nav/home" type="button">Enter Here</Button>
+      </div>
     )
 }
+
+           /* 
+           <Typewriter
+                onInit={(typewriter) => {
+
+                // typewriter.typeString(`Hi. This is my website.`)
+                // .callFunction(() => {
+                // })
+                // .deleteChars(23)
+
+                typewriter.typeString(`I'm Jackie Atwood.`)
+                .callFunction(() => {
+                })
+                
+                .pauseFor(4500)
+                typewriter.typeString(`<br> I'm a budding web developer.`)
+                .callFunction(() => {
+                })
+                .pauseFor(4500)
+
+                typewriter.typeString(`<br> Let's Grow Together....`)
+                .callFunction(() => {
+                })
+                .changeDelay('natural')
+                .start();
+                 }}
+            />
+            
+            </Typer> */
+      
+
